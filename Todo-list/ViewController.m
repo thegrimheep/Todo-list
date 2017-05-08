@@ -70,5 +70,17 @@
     }];
 }
 
+- (IBAction)logoutButtonPressed:(id)sender {
+    NSError *signOutError;
+    [[FIRAuth auth] signOut:&signOutError];
+    
+    [self checkUserStatus];
+}
+
+
+- (IBAction)addTodoButtonPressed:(id)sender {
+    
+}
+
 
 @end
