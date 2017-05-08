@@ -41,16 +41,22 @@
                     </view>
                     <navigationItem key="navigationItem" title="TODO LIST" id="wNt-4w-Gie">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="4f4-KB-dTW">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="logoutButtonPressed:" destination="BYZ-38-t0r" id="xlE-Jq-cIE"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="p0W-6a-p2d">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="addTodoButtonPressed:" destination="BYZ-38-t0r" id="H4P-uK-B0S"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="containerHeightConstraint" destination="X8k-r8-FxS" id="E7a-Ar-pKf"/>
+                        <outlet property="todoContainer" destination="a2z-Xz-ces" id="aqZ-BX-aMH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

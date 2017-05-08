@@ -13,6 +13,8 @@
 @import Firebase;
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *containerHeightConstraint;
+@property (weak, nonatomic) IBOutlet UIView *todoContainer;
 
 @property(strong, nonatomic) FIRDatabaseReference *userReference;
 @property(strong, nonatomic) FIRUser *currentUser;
@@ -24,8 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    
+    self.todoContainer.hidden = YES;
     
 }
 
@@ -33,7 +34,6 @@
     [super viewDidAppear:animated];
     
     [self checkUserStatus];
-    
 }
 
 -(void)checkUserStatus {
@@ -79,7 +79,12 @@
 
 
 - (IBAction)addTodoButtonPressed:(id)sender {
-    
+    if (self.todoContainer.hidden == YES) {
+        self.todoContainer.hidden = NO;
+    } else if (self.todoContainer.hidden == NO) {
+        self.todoContainer.hidden = YES;
+    }
+
 }
 
 
