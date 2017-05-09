@@ -61,6 +61,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A1320DDF1EC13EE80060440B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A4D11EC0DD9E00F87F03 /* ViewController.h */,
+				A1F4A4D21EC0DD9E00F87F03 /* ViewController.m */,
+				A1320DDC1EC10E630060440B /* NewTodoViewController.h */,
+				A1320DDD1EC10E630060440B /* NewTodoViewController.m */,
+				A1320DD91EC0EBC90060440B /* LoginViewController.h */,
+				A1320DDA1EC0EBC90060440B /* LoginViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A1320DE01EC13F000060440B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A4D41EC0DD9E00F87F03 /* Main.storyboard */,
+				A1F4A4D91EC0DD9E00F87F03 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A1320DE11EC13F230060440B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1F4A4CE1EC0DD9E00F87F03 /* AppDelegate.h */,
+				A1F4A4CF1EC0DD9E00F87F03 /* AppDelegate.m */,
+				A1F4A4D71EC0DD9E00F87F03 /* Assets.xcassets */,
+				A1F4A4DC1EC0DD9E00F87F03 /* Info.plist */,
+				A1F4A4E21EC0DFFA00F87F03 /* GoogleService-Info.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A1F4A4BF1EC0DD9E00F87F03 = {
 			isa = PBXGroup;
 			children = (
@@ -82,19 +116,9 @@
 		A1F4A4CA1EC0DD9E00F87F03 /* Todo-list */ = {
 			isa = PBXGroup;
 			children = (
-				A1F4A4CE1EC0DD9E00F87F03 /* AppDelegate.h */,
-				A1F4A4CF1EC0DD9E00F87F03 /* AppDelegate.m */,
-				A1F4A4D11EC0DD9E00F87F03 /* ViewController.h */,
-				A1F4A4D21EC0DD9E00F87F03 /* ViewController.m */,
-				A1F4A4D41EC0DD9E00F87F03 /* Main.storyboard */,
-				A1320DDC1EC10E630060440B /* NewTodoViewController.h */,
-				A1320DDD1EC10E630060440B /* NewTodoViewController.m */,
-				A1320DD91EC0EBC90060440B /* LoginViewController.h */,
-				A1320DDA1EC0EBC90060440B /* LoginViewController.m */,
-				A1F4A4D71EC0DD9E00F87F03 /* Assets.xcassets */,
-				A1F4A4D91EC0DD9E00F87F03 /* LaunchScreen.storyboard */,
-				A1F4A4DC1EC0DD9E00F87F03 /* Info.plist */,
-				A1F4A4E21EC0DFFA00F87F03 /* GoogleService-Info.plist */,
+				A1320DE11EC13F230060440B /* Model */,
+				A1320DDF1EC13EE80060440B /* Controller */,
+				A1320DE01EC13F000060440B /* View */,
 				A1F4A4CB1EC0DD9E00F87F03 /* Supporting Files */,
 			);
 			path = "Todo-list";

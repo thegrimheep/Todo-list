@@ -63,7 +63,7 @@
             NSDictionary *todoData = child.value;
             NSString *todoTitle = todoData[@"title"];
             NSString *todoContent = todoData[@"content"];
-            
+//            [allTodos addObject:todoData];
             //for lab append new Todo to allTodos array
             NSLog(@"Todo Title: %@ - Content: %@", todoTitle, todoContent);
         }
