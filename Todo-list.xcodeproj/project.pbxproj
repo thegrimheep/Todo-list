@@ -17,6 +17,13 @@
 		A1320DFA1EC233AA0060440B /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320DF91EC233AA0060440B /* ExtensionDelegate.m */; };
 		A1320DFC1EC233AA0060440B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1320DFB1EC233AA0060440B /* Assets.xcassets */; };
 		A1320E001EC233AA0060440B /* Watchkit-todo-list.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A1320DE41EC233A90060440B /* Watchkit-todo-list.app */; };
+		A1320E0B1EC23F3C0060440B /* TodoRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E0A1EC23F3C0060440B /* TodoRowController.m */; };
+		A1320E141EC246C10060440B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E131EC246C10060440B /* main.m */; };
+		A1320E171EC246C10060440B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E161EC246C10060440B /* AppDelegate.m */; };
+		A1320E1D1EC246C10060440B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1320E1B1EC246C10060440B /* Main.storyboard */; };
+		A1320E1F1EC246C10060440B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1320E1E1EC246C10060440B /* Assets.xcassets */; };
+		A1320E261EC248B50060440B /* TVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E251EC248B50060440B /* TVHomeViewController.m */; };
+		A1320E291EC26FFE0060440B /* TodoDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E281EC26FFE0060440B /* TodoDetailInterfaceController.m */; };
 		A1F4A4CD1EC0DD9E00F87F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CC1EC0DD9E00F87F03 /* main.m */; };
 		A1F4A4D01EC0DD9E00F87F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CF1EC0DD9E00F87F03 /* AppDelegate.m */; };
 		A1F4A4D31EC0DD9E00F87F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4D21EC0DD9E00F87F03 /* ViewController.m */; };
@@ -86,6 +93,19 @@
 		A1320DF91EC233AA0060440B /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		A1320DFB1EC233AA0060440B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1320DFD1EC233AA0060440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1320E091EC23F3C0060440B /* TodoRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoRowController.h; sourceTree = "<group>"; };
+		A1320E0A1EC23F3C0060440B /* TodoRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoRowController.m; sourceTree = "<group>"; };
+		A1320E101EC246C10060440B /* TV-todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TV-todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1320E131EC246C10060440B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1320E151EC246C10060440B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1320E161EC246C10060440B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1320E1C1EC246C10060440B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1320E1E1EC246C10060440B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1320E201EC246C10060440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1320E241EC248B50060440B /* TVHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVHomeViewController.h; sourceTree = "<group>"; };
+		A1320E251EC248B50060440B /* TVHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVHomeViewController.m; sourceTree = "<group>"; };
+		A1320E271EC26FFE0060440B /* TodoDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoDetailInterfaceController.h; sourceTree = "<group>"; };
+		A1320E281EC26FFE0060440B /* TodoDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoDetailInterfaceController.m; sourceTree = "<group>"; };
 		A1F4A4C81EC0DD9E00F87F03 /* Todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F4A4CC1EC0DD9E00F87F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1F4A4CE1EC0DD9E00F87F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -102,6 +122,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		A1320DED1EC233A90060440B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1320E0D1EC246C10060440B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,14 +202,41 @@
 		A1320DF41EC233AA0060440B /* Watchkit-todo-list Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A1320E091EC23F3C0060440B /* TodoRowController.h */,
+				A1320E0A1EC23F3C0060440B /* TodoRowController.m */,
 				A1320DF51EC233AA0060440B /* InterfaceController.h */,
 				A1320DF61EC233AA0060440B /* InterfaceController.m */,
 				A1320DF81EC233AA0060440B /* ExtensionDelegate.h */,
 				A1320DF91EC233AA0060440B /* ExtensionDelegate.m */,
 				A1320DFB1EC233AA0060440B /* Assets.xcassets */,
 				A1320DFD1EC233AA0060440B /* Info.plist */,
+				A1320E271EC26FFE0060440B /* TodoDetailInterfaceController.h */,
+				A1320E281EC26FFE0060440B /* TodoDetailInterfaceController.m */,
 			);
 			path = "Watchkit-todo-list Extension";
+			sourceTree = "<group>";
+		};
+		A1320E111EC246C10060440B /* TV-todo-list */ = {
+			isa = PBXGroup;
+			children = (
+				A1320E241EC248B50060440B /* TVHomeViewController.h */,
+				A1320E251EC248B50060440B /* TVHomeViewController.m */,
+				A1320E151EC246C10060440B /* AppDelegate.h */,
+				A1320E161EC246C10060440B /* AppDelegate.m */,
+				A1320E1B1EC246C10060440B /* Main.storyboard */,
+				A1320E1E1EC246C10060440B /* Assets.xcassets */,
+				A1320E201EC246C10060440B /* Info.plist */,
+				A1320E121EC246C10060440B /* Supporting Files */,
+			);
+			path = "TV-todo-list";
+			sourceTree = "<group>";
+		};
+		A1320E121EC246C10060440B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1320E131EC246C10060440B /* main.m */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		A1F4A4BF1EC0DD9E00F87F03 = {
@@ -191,6 +245,7 @@
 				A1F4A4CA1EC0DD9E00F87F03 /* Todo-list */,
 				A1320DE51EC233A90060440B /* Watchkit-todo-list */,
 				A1320DF41EC233AA0060440B /* Watchkit-todo-list Extension */,
+				A1320E111EC246C10060440B /* TV-todo-list */,
 				A1F4A4C91EC0DD9E00F87F03 /* Products */,
 				5F0FF74D0E8494F7233101F9 /* Pods */,
 				F913658207E7FE21FFCB02D4 /* Frameworks */,
@@ -203,6 +258,7 @@
 				A1F4A4C81EC0DD9E00F87F03 /* Todo-list.app */,
 				A1320DE41EC233A90060440B /* Watchkit-todo-list.app */,
 				A1320DF01EC233A90060440B /* Watchkit-todo-list Extension.appex */,
+				A1320E101EC246C10060440B /* TV-todo-list.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,6 +327,23 @@
 			productReference = A1320DF01EC233A90060440B /* Watchkit-todo-list Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
+		A1320E0F1EC246C10060440B /* TV-todo-list */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1320E211EC246C10060440B /* Build configuration list for PBXNativeTarget "TV-todo-list" */;
+			buildPhases = (
+				A1320E0C1EC246C10060440B /* Sources */,
+				A1320E0D1EC246C10060440B /* Frameworks */,
+				A1320E0E1EC246C10060440B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TV-todo-list";
+			productName = "TV-todo-list";
+			productReference = A1320E101EC246C10060440B /* TV-todo-list.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A1F4A4C71EC0DD9E00F87F03 /* Todo-list */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1F4A4DF1EC0DD9E00F87F03 /* Build configuration list for PBXNativeTarget "Todo-list" */;
@@ -312,6 +385,11 @@
 						DevelopmentTeam = AB9NKXMTZH;
 						ProvisioningStyle = Automatic;
 					};
+					A1320E0F1EC246C10060440B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AB9NKXMTZH;
+						ProvisioningStyle = Automatic;
+					};
 					A1F4A4C71EC0DD9E00F87F03 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = AB9NKXMTZH;
@@ -335,6 +413,7 @@
 				A1F4A4C71EC0DD9E00F87F03 /* Todo-list */,
 				A1320DE31EC233A90060440B /* Watchkit-todo-list */,
 				A1320DEF1EC233A90060440B /* Watchkit-todo-list Extension */,
+				A1320E0F1EC246C10060440B /* TV-todo-list */,
 			);
 		};
 /* End PBXProject section */
@@ -354,6 +433,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1320DFC1EC233AA0060440B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1320E0E1EC246C10060440B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1320E1F1EC246C10060440B /* Assets.xcassets in Resources */,
+				A1320E1D1EC246C10060440B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +511,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1320E291EC26FFE0060440B /* TodoDetailInterfaceController.m in Sources */,
 				A1320DFA1EC233AA0060440B /* ExtensionDelegate.m in Sources */,
 				A1320DF71EC233AA0060440B /* InterfaceController.m in Sources */,
+				A1320E0B1EC23F3C0060440B /* TodoRowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1320E0C1EC246C10060440B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1320E171EC246C10060440B /* AppDelegate.m in Sources */,
+				A1320E141EC246C10060440B /* main.m in Sources */,
+				A1320E261EC248B50060440B /* TVHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +562,14 @@
 				A1320DE71EC233A90060440B /* Base */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		A1320E1B1EC246C10060440B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1320E1C1EC246C10060440B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A1F4A4D41EC0DD9E00F87F03 /* Main.storyboard */ = {
@@ -544,6 +652,38 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 3.2;
+			};
+			name = Release;
+		};
+		A1320E221EC246C10060440B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = AB9NKXMTZH;
+				INFOPLIST_FILE = "TV-todo-list/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidporter.TV-todo-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A1320E231EC246C10060440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = AB9NKXMTZH;
+				INFOPLIST_FILE = "TV-todo-list/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.davidporter.TV-todo-list";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
 		};
@@ -681,6 +821,14 @@
 			buildConfigurations = (
 				A1320E061EC233AA0060440B /* Debug */,
 				A1320E071EC233AA0060440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1320E211EC246C10060440B /* Build configuration list for PBXNativeTarget "TV-todo-list" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1320E221EC246C10060440B /* Debug */,
+				A1320E231EC246C10060440B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
