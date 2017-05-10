@@ -12,7 +12,7 @@
 @import FirebaseAuth;
 @import Firebase;
 
-@interface ViewController ()
+@interface ViewController () <UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *containerHeightConstraint;
 @property (weak, nonatomic) IBOutlet UIView *todoContainer;
 
@@ -63,7 +63,8 @@
             NSDictionary *todoData = child.value;
             NSString *todoTitle = todoData[@"title"];
             NSString *todoContent = todoData[@"content"];
-//            [allTodos addObject:todoData];
+            
+            [allTodos addObject:todoData];
             //for lab append new Todo to allTodos array
             NSLog(@"Todo Title: %@ - Content: %@", todoTitle, todoContent);
         }

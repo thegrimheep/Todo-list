@@ -31,12 +31,20 @@
                                     <segue destination="9Tu-yY-FTx" kind="embed" id="iLk-0U-pe1"/>
                                 </connections>
                             </containerView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="qPW-YD-zqh">
+                                <rect key="frame" x="0.0" y="214" width="375" height="238"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="a2z-Xz-ces" secondAttribute="trailing" id="UVl-zQ-0a7"/>
+                            <constraint firstItem="qPW-YD-zqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wft-VT-QPY"/>
                             <constraint firstItem="a2z-Xz-ces" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="eRK-am-Ksh"/>
+                            <constraint firstItem="qPW-YD-zqh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gST-yE-jol"/>
+                            <constraint firstItem="qPW-YD-zqh" firstAttribute="top" secondItem="a2z-Xz-ces" secondAttribute="bottom" id="i9x-GC-qH2"/>
                             <constraint firstItem="a2z-Xz-ces" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="lbM-4f-c9L"/>
+                            <constraint firstItem="qPW-YD-zqh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="sen-7t-cRT"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="TODO LIST" id="wNt-4w-Gie">
