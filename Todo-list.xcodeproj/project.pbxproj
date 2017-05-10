@@ -23,7 +23,7 @@
 		A1320E1D1EC246C10060440B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1320E1B1EC246C10060440B /* Main.storyboard */; };
 		A1320E1F1EC246C10060440B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1320E1E1EC246C10060440B /* Assets.xcassets */; };
 		A1320E261EC248B50060440B /* TVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E251EC248B50060440B /* TVHomeViewController.m */; };
-		A1320E291EC26FFE0060440B /* TodoDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E281EC26FFE0060440B /* TodoDetailInterfaceController.m */; };
+		A1320E2C1EC2763A0060440B /* TodoDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E2B1EC2763A0060440B /* TodoDetailInterfaceController.m */; };
 		A1F4A4CD1EC0DD9E00F87F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CC1EC0DD9E00F87F03 /* main.m */; };
 		A1F4A4D01EC0DD9E00F87F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CF1EC0DD9E00F87F03 /* AppDelegate.m */; };
 		A1F4A4D31EC0DD9E00F87F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4D21EC0DD9E00F87F03 /* ViewController.m */; };
@@ -104,8 +104,8 @@
 		A1320E201EC246C10060440B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1320E241EC248B50060440B /* TVHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVHomeViewController.h; sourceTree = "<group>"; };
 		A1320E251EC248B50060440B /* TVHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVHomeViewController.m; sourceTree = "<group>"; };
-		A1320E271EC26FFE0060440B /* TodoDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoDetailInterfaceController.h; sourceTree = "<group>"; };
-		A1320E281EC26FFE0060440B /* TodoDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoDetailInterfaceController.m; sourceTree = "<group>"; };
+		A1320E2A1EC2763A0060440B /* TodoDetailInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoDetailInterfaceController.h; sourceTree = "<group>"; };
+		A1320E2B1EC2763A0060440B /* TodoDetailInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoDetailInterfaceController.m; sourceTree = "<group>"; };
 		A1F4A4C81EC0DD9E00F87F03 /* Todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F4A4CC1EC0DD9E00F87F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1F4A4CE1EC0DD9E00F87F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -202,6 +202,8 @@
 		A1320DF41EC233AA0060440B /* Watchkit-todo-list Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A1320E2A1EC2763A0060440B /* TodoDetailInterfaceController.h */,
+				A1320E2B1EC2763A0060440B /* TodoDetailInterfaceController.m */,
 				A1320E091EC23F3C0060440B /* TodoRowController.h */,
 				A1320E0A1EC23F3C0060440B /* TodoRowController.m */,
 				A1320DF51EC233AA0060440B /* InterfaceController.h */,
@@ -210,8 +212,6 @@
 				A1320DF91EC233AA0060440B /* ExtensionDelegate.m */,
 				A1320DFB1EC233AA0060440B /* Assets.xcassets */,
 				A1320DFD1EC233AA0060440B /* Info.plist */,
-				A1320E271EC26FFE0060440B /* TodoDetailInterfaceController.h */,
-				A1320E281EC26FFE0060440B /* TodoDetailInterfaceController.m */,
 			);
 			path = "Watchkit-todo-list Extension";
 			sourceTree = "<group>";
@@ -511,7 +511,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1320E291EC26FFE0060440B /* TodoDetailInterfaceController.m in Sources */,
+				A1320E2C1EC2763A0060440B /* TodoDetailInterfaceController.m in Sources */,
 				A1320DFA1EC233AA0060440B /* ExtensionDelegate.m in Sources */,
 				A1320DF71EC233AA0060440B /* InterfaceController.m in Sources */,
 				A1320E0B1EC23F3C0060440B /* TodoRowController.m in Sources */,
