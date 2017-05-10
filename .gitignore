@@ -158,5 +158,6 @@ playground.xcworkspace
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
+/TV-todo-list/Credentials.h
 
 # End of https://www.gitignore.io/api/macos,swift,xcode,objective-c
