@@ -25,6 +25,7 @@
 		A1320E261EC248B50060440B /* TVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E251EC248B50060440B /* TVHomeViewController.m */; };
 		A1320E2C1EC2763A0060440B /* TodoDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E2B1EC2763A0060440B /* TodoDetailInterfaceController.m */; };
 		A1320E301EC384370060440B /* FirebaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E2F1EC384370060440B /* FirebaseAPI.m */; };
+		A1320E331EC4E8980060440B /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E321EC4E8980060440B /* Todo.m */; };
 		A1F4A4CD1EC0DD9E00F87F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CC1EC0DD9E00F87F03 /* main.m */; };
 		A1F4A4D01EC0DD9E00F87F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CF1EC0DD9E00F87F03 /* AppDelegate.m */; };
 		A1F4A4D31EC0DD9E00F87F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4D21EC0DD9E00F87F03 /* ViewController.m */; };
@@ -110,6 +111,8 @@
 		A1320E2D1EC382E60060440B /* Credentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Credentials.h; sourceTree = "<group>"; };
 		A1320E2E1EC384370060440B /* FirebaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseAPI.h; sourceTree = "<group>"; };
 		A1320E2F1EC384370060440B /* FirebaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseAPI.m; sourceTree = "<group>"; };
+		A1320E311EC4E8980060440B /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		A1320E321EC4E8980060440B /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
 		A1F4A4C81EC0DD9E00F87F03 /* Todo-list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo-list.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F4A4CC1EC0DD9E00F87F03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1F4A4CE1EC0DD9E00F87F03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 		A1320DE11EC13F230060440B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A1320E311EC4E8980060440B /* Todo.h */,
+				A1320E321EC4E8980060440B /* Todo.m */,
 				A1F4A4CE1EC0DD9E00F87F03 /* AppDelegate.h */,
 				A1F4A4CF1EC0DD9E00F87F03 /* AppDelegate.m */,
 				A1F4A4D71EC0DD9E00F87F03 /* Assets.xcassets */,
@@ -541,6 +546,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1320DDB1EC0EBC90060440B /* LoginViewController.m in Sources */,
+				A1320E331EC4E8980060440B /* Todo.m in Sources */,
 				A1F4A4D31EC0DD9E00F87F03 /* ViewController.m in Sources */,
 				A1F4A4D01EC0DD9E00F87F03 /* AppDelegate.m in Sources */,
 				A1320DDE1EC10E630060440B /* NewTodoViewController.m in Sources */,

@@ -9,9 +9,11 @@
 #import "InterfaceController.h"
 #import "TodoRowController.h"
 
+//#import "Todo.h"
 
+@import WatchConnectivity;
 
-@interface InterfaceController ()
+@interface InterfaceController () <WCSessionDelegate>
 
 @property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceTable *table;
 
@@ -58,6 +60,30 @@
 - (void)willActivate {
     // This method is called when watch view controller is about to be visible to user
     [super willActivate];
+    
+    [[WCSession defaultSession] setDelegate:self];
+    [[WCSession defaultSession] activateSession];
+    
+    //The message parameter is where you would want to hand the iOS app new Todo data to save to Firebase
+    [[WCSession defaultSession] sendMessage:@{} replyHandler:^(NSDictionary<NSString *,id> * _Nonnull replyMessage) {
+        NSArray *todoDictionaries = replyMessage [@"todos"];
+        
+        NSMutableArray *allTodos = [[NSMutableArray alloc] init];
+        
+        for (NSDictionary *todoObject in todoDictionaries) {
+            Todo *newTodo = [[Todo alloc] init];
+            newTodo.title = todoObject[@"title"];
+            newTodo.content = todoObject[@"content"];
+            
+            [allTodos addObject:newTodo];
+        }
+        
+        self.allTodos = allTodos.copy;
+        [self setupInterfaceTable];
+    } errorHandler:^(NSError * _Nonnull error) {
+        NSLog(@"%@", error.localizedDescription);
+        
+    }];
 }
 
 - (void)didDeactivate {
