@@ -25,7 +25,7 @@
 		A1320E261EC248B50060440B /* TVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E251EC248B50060440B /* TVHomeViewController.m */; };
 		A1320E2C1EC2763A0060440B /* TodoDetailInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E2B1EC2763A0060440B /* TodoDetailInterfaceController.m */; };
 		A1320E301EC384370060440B /* FirebaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E2F1EC384370060440B /* FirebaseAPI.m */; };
-		A1320E331EC4E8980060440B /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E321EC4E8980060440B /* Todo.m */; };
+		A1320E341EC525930060440B /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = A1320E321EC4E8980060440B /* Todo.m */; };
 		A1F4A4CD1EC0DD9E00F87F03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CC1EC0DD9E00F87F03 /* main.m */; };
 		A1F4A4D01EC0DD9E00F87F03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4CF1EC0DD9E00F87F03 /* AppDelegate.m */; };
 		A1F4A4D31EC0DD9E00F87F03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F4A4D21EC0DD9E00F87F03 /* ViewController.m */; };
@@ -523,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1320E341EC525930060440B /* Todo.m in Sources */,
 				A1320E2C1EC2763A0060440B /* TodoDetailInterfaceController.m in Sources */,
 				A1320DFA1EC233AA0060440B /* ExtensionDelegate.m in Sources */,
 				A1320DF71EC233AA0060440B /* InterfaceController.m in Sources */,
@@ -546,7 +547,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1320DDB1EC0EBC90060440B /* LoginViewController.m in Sources */,
-				A1320E331EC4E8980060440B /* Todo.m in Sources */,
 				A1F4A4D31EC0DD9E00F87F03 /* ViewController.m in Sources */,
 				A1F4A4D01EC0DD9E00F87F03 /* AppDelegate.m in Sources */,
 				A1320DDE1EC10E630060440B /* NewTodoViewController.m in Sources */,
