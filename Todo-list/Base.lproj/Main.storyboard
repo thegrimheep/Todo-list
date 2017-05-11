@@ -63,6 +63,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="containerHeightConstraint" destination="X8k-r8-FxS" id="E7a-Ar-pKf"/>
+                        <outlet property="tableView" destination="qPW-YD-zqh" id="F4w-oZ-Ren"/>
                         <outlet property="todoContainer" destination="a2z-Xz-ces" id="aqZ-BX-aMH"/>
                     </connections>
                 </viewController>
