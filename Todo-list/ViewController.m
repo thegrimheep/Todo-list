@@ -8,13 +8,17 @@
 
 #import "ViewController.h"
 #import "LoginViewController.h"
+#import "Todo.h"
 
 @import FirebaseAuth;
 @import Firebase;
 
-@interface ViewController () <UITableViewDataSource>
+@interface ViewController () <UITableViewDataSource, UITableViewDelegate>
+
+@property(strong, nonatomic)NSMutableArray *allTodos;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *containerHeightConstraint;
 @property (weak, nonatomic) IBOutlet UIView *todoContainer;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @property(strong, nonatomic) FIRDatabaseReference *userReference;
 @property(strong, nonatomic) FIRUser *currentUser;
@@ -26,6 +30,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    
     self.todoContainer.hidden = YES;
     
 }
@@ -80,12 +87,29 @@
 
 
 - (IBAction)addTodoButtonPressed:(id)sender {
+    
+    
     if (self.todoContainer.hidden == YES) {
         self.todoContainer.hidden = NO;
     } else if (self.todoContainer.hidden == NO) {
         self.todoContainer.hidden = YES;
     }
+}
 
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.allTodos.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
+    }
+    
+    Todo *todo = [self.allTodos objectAtIndex:indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@", todo.title];
+    return cell;
 }
 
 
